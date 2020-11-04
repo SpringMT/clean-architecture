@@ -1,10 +1,5 @@
-export type CharReader = {
-    read: () => string;
-}
-
-export type CharWriter = {
-    write: (string) => void;
-}
+import {CharReader} from "./char_reader";
+import {CharWriter} from "./char_writer";
 
 export class Encryption {
     reader: CharReader

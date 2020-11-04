@@ -7,5 +7,4 @@ import (
 
 func main() {
 	domain.Encryption(&usecase.ConsoleReader{}, &usecase.ConsoleWriter{})
-
 }
